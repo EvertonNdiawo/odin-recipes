@@ -1,9 +1,36 @@
 body{
     background-color:white;
     color:black;
+    font-family:Geneva, verdana, sans-serif ;
 }
 h1{
     color:orangered;
     text-align: center;
-    font-size: 28px;
+    font-size: 48px;
+    font-family:"Brush script MT", cursive;
+}
+
+.prev{
+    position:relative;
+    left:2%;
+    top:2%;
+    width:50%;
+    height:300px;
+}
+
+.desc{
+    position:relative;
+    width:44%;
+    height:auto;
+    top:-325px;
+    margin-left:54%;
+}
+.desc h2{
+    text-align:center;
+    color:limegreen;
+    font-size:30px;
+}
+
+h3, h4{
+    color:limegreen;
 }
