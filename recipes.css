@@ -21,7 +21,7 @@ h1{
 .list:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0.2);
 }
-.list li,a{
+.list a{
     text-decoration:none;
     color: limegreen;
     font-size:22px;
