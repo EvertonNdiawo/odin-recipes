@@ -1,6 +1,28 @@
 body{
     color:orangered;
     background-color: white;
-    font-family:Georgia,Tahoma, "Times New Roman", sans-serif;
+    font-family:Tahoma, "Times New Roman", sans-serif;
     font-size: 24px;
+}
+
+h1{
+    text-align:center;
+}
+
+.list{
+    position:absolute;
+    left:35%;
+    width:330px;
+    height:360px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0.2);
+    transition:0.3s;
+
+}
+.list:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0.2);
+}
+.list li,a{
+    text-decoration:none;
+    color: limegreen;
+    font-size:22px;
 }
