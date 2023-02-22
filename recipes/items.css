@@ -1,4 +1,5 @@
 body{
+    box-sizing:border-box;
     background-color:white;
     color:black;
     font-family:Geneva, verdana, sans-serif ;
@@ -33,4 +34,23 @@ h1{
 
 h3, h4{
     color:limegreen;
+}
+
+.ing{
+    position:relative;
+    margin-top:-300px;
+    margin-left: 70%;
+    width:30%;
+    border: 2px solid rgb(86, 182, 65);
+    font-size:10px;
+}
+.ing h3{
+    color:orangered;
+    text-align:center;
+}
+.stp{
+    position:relative;
+    margin-top: -300px;
+    margin-left:2%;
+    width:60%;
 }
